@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    margin:0;
+    font-family: 'Assistant', sans-serif;
+}
+div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow:column nowrap;
+    width:280px;
+    height:450px;
+    border-radius:20px;
+    padding:15px;
+    text-align: center;
+    box-shadow: 0px 5px 5px hsla(220, 15%, 55%, 40%);
+}
+img{
+    margin-top:0px;
+    border-radius:10px;
+    width:100%;
+}
+h2{
+    font-weight: 700;
+    color:hsl(218, 44%, 22%);
+}
+p{
+    font-weight: 400;
+    font-size: 15px;
+    color:hsl(220, 15%, 55%);
+    margin: 15px;
+    margin-top:-10px;
+}
+@media screen and (max-width: 375px) {
+
+    
+}
